@@ -1,15 +1,15 @@
 require 'pry'
 class Hash
   def keys_of(*argument)
-  listOfKeys=[]
+  list_Keys=[]
 
    argument.each do |arg|
       map do |key,value|
            if arg == value
-     listOfKeys  << key
+     list_Keys  << key
         end
        end
       end
-  listOfKeys
+  list_Keys
     end
 end
