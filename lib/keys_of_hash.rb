@@ -1,5 +1,6 @@
 require 'pry'
 class Hash
+  def keys_of(*argument)
   listOfKeys=[]
 
    argument.each do |arg|
