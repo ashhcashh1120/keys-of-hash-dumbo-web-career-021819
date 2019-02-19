@@ -4,7 +4,7 @@ class Hash
     # code goes here
     list_keys=[]
 
-     argument.each do |arg|
+     arguments.each do |arg|
         map do |key,value|
              if arg == value
        list_keys  << key
