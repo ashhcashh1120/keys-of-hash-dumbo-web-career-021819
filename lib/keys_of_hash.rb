@@ -1,16 +1,14 @@
 require 'pry'
 class Hash
-  def keys_of(arguments)
-    # code goes here
-    list_keys=[]
+  listOfKeys=[]
 
-     arguments.each do |arg|
-        map do |key,value|
-             if arg == value
-       list_keys  << key
+   argument.each do |arg|
+      map do |key,value|
+           if arg == value
+     listOfKeys  << key
+        end
+       end
       end
+  listOfKeys
     end
   end
-    list_keys
-  end
-end
