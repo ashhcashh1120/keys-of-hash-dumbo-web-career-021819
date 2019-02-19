@@ -7,10 +7,10 @@ class Hash
      argument.each do |arg|
         map do |key,value|
              if arg == value
-       listOfKeys  << key
+       list_keys  << key
       end
     end
   end
-    listOfKeys
+    list_keys
   end
 end
