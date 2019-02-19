@@ -12,3 +12,5 @@ class Hash
   listOfKeys
     end
   end
+end
+end
