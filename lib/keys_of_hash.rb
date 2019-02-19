@@ -4,9 +4,9 @@ class Hash
   list_Keys=[]
 
    argument.each do |arg|
-      map do |key,value|
-           if arg == value
-     list_Keys  << key
+      map do |k,v|
+           if arg == v
+     list_Keys  << k
         end
        end
       end
